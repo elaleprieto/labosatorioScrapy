@@ -13,5 +13,8 @@ class LabosatorioItem(Item):
     titulo = Field()
     fechaApertura = Field()
     monto = Field()
+    monto_original = Field()
+    pliegoURL = Field()
+    pliegoId = Field()
 
 
